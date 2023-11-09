@@ -1,9 +1,11 @@
 **q1**
 ```
-movies> db.moviedetails.insertMany([ {"Movie-Title": "Jurassic Park ","Genre/Type": "Adventure","Director": "Steven Spielberg ","Release Year": "1993 "},{"Movie-Title": "Forrest Gump","Genre/Type": "Drama ","Director": "Robert Zemeckies","Release Year": "1994 "},{"Movie-Title": "Titanic","Genre/Type": "Romance","Director": "James Cameron","Release Year": "1997"},{"Movie-Title": "The Dark Knight","Genre/Type": "Action","Director": "Christopher Nolan","Release Year": "2008 "},{"Movie-Title":"Avatar","Genre/Type":"Science Fiction","Director":"James Cameron","Release Year":"2009"} ]);
+movies> db.moviedetails.insertMany([ {MovieTitle: "Jurassic Park ",Genre: "Adventure",Director: "Steven Spielberg ",ReleaseYear:1993},{MovieTitle: "Forrest Gump",Genre: "Drama ",Director: "Robert Zemeckies",ReleaseYear: 1994 },{MovieTitle: "Titanic",Genre: "Romance",Director: "James Cameron",ReleaseYear: 1997},{MovieTitle: "The Dark Knight",Genre: "Action",Director: "Christopher Nolan",ReleaseYear: 2008 },{MovieTitle:"Avatar",Genre:"Science Fiction",Director:"James Cameron",ReleaseYear:2009} ]);
 {
 
 ```
+
+
 ```
   acknowledged: true,
   insertedIds: {
